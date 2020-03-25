@@ -15,5 +15,5 @@ try {
         console.log('\x1b[32m%s\x1b[0m','Server Connected Successfully!');
     })
 } catch (error) {
-    console.log('\x1b[31m%s\x1b[0m','Server Connected Fail!');
+    console.log('\x1b[31m%s\x1b[0m','Connection to the Server Failed!');
 }
